@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+env/
+venv/
+*.env
+*.pyenv
+*.egg-info/
+
+# GVM/OpenVAS data & runtime
+gvm-data/
+run/
+run/
+var/
+*.sock
+*.pid
+
+# Reports, logs, outputs (keep sample only)
+reports/
+outputs/
+logs/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# System
+.DS_Store
+
+# Secrets & keys
+secrets.env
+*.pem
+*.key
