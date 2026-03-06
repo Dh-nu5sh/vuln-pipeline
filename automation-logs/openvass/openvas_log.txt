@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/kali/vuln-pipeline/scanner/openvas_runner.py", line 4, in <module>
+    from gvm.connections import UnixSocketConnection
+ModuleNotFoundError: No module named 'gvm'
+Traceback (most recent call last):
+  File "/home/kali/vuln-pipeline/scanner/openvas_runner.py", line 4, in <module>
+    from gvm.connections import UnixSocketConnection
+ModuleNotFoundError: No module named 'gvm'
+Traceback (most recent call last):
+  File "/home/kali/vuln-pipeline/scanner/openvas_runner.py", line 4, in <module>
+    from gvm.connections import UnixSocketConnection
+ModuleNotFoundError: No module named 'gvm'

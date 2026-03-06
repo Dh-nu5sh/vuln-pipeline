@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+import sys
+from nikto_runner import run_nikto
+from make_report import build_report
+
+def main(target_url):
+    print("Starting scan pipeline for:", target_url)
+    nikto_out = run_nikto(target_url)
+    html, pdf = build_report(nikto_out)
+    print("Report generated:", html, pdf)
+

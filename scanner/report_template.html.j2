@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Vuln Scan Report</title>
+  <style>
+    body{font-family: system-ui, Arial; margin:20px}
+    pre{white-space:pre-wrap; background:#f7f7f7; padding:10px; border-radius:6px;}
+    .meta{font-size:0.9em;color:#444}
+  </style>
+</head>
+<body>
+  <h1>Automated Vulnerability Scan Report</h1>
+  <div class="meta">Generated: {{ summary.generated_on }} — Nikto lines: {{ summary.nikto_lines }}</div>
+
+  <h2>Nikto excerpt</h2>
+  <pre>{{ summary.nikto_excerpt }}</pre>
+
+  {% if summary.gvm %}
+    <h2>GVM Summary</h2>
+    <pre>{{ summary.gvm }}</pre>
+  {% endif %}
+</body>
+</html>
